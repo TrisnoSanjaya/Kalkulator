@@ -1,0 +1,54 @@
+body{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.card {
+    background-color: blanchedalmond;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgb(0, 0, 0);
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.display{
+    background-color: #f1f3f5;
+    height: 30%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: inset 2px 3px 11px rgb(0,0,0,0.16) , 5px 5px 12px rgb(0,0,0,0.16)#fff;
+    display: flex;
+    justify-content: center;
+}
+
+.display input{
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    width: 90%;
+    text-align: end;
+    outline: none;
+}
+
+.button{
+    height: 70%;
+    display: flex;
+    width: 100%;
+}
+
+.tombol-kiri{
+    background-color: violet;
+    
+}
+
+.tombol-kanan{
+    background-color: yellow;
+}
